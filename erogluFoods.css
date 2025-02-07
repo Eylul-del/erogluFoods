@@ -1,0 +1,622 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-image: url(/images/hero-bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    margin-top: -10;
+}
+
+.conact .contactFirst{
+    width: 100%;
+    height: 50px;
+}
+
+.contactFirst ul{
+    padding-top: 20px;
+    padding-right: 50px;
+    justify-content: right;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.contactFirst ul i:hover{
+    cursor: pointer;
+    color: red;
+    transform: scale(1.03);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover{
+    color: red;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+hr{
+    color: rgb(239, 239, 239);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content{
+    padding: 150px 0 0 230px;
+    font-size: larger;
+}
+.content button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    margin: 10px 30px;
+}
+
+.content button:hover{
+    background-color: #252525;
+    transform: scale(1.03);
+}
+
+.content a{
+    text-decoration: none;
+    color: red;
+    transform: scale(1.03);
+}
+
+.content a:hover{
+    color: rgb(43, 0, 0);
+    font-size: 19px;    
+}
+
+
+
+.sertCat{
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+} 
+
+.strfc{
+    display: flex;
+}
+.strfc i{
+    padding: 10px;
+    padding-top: 20px;
+    margin-right: 10px;
+    /* margin-top: 28px; */
+    font-size: 55px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    background-color: #ffdddd;
+}
+
+.inside{
+    display: flex;
+}
+
+
+/* 
+.strfc img{
+    height: 50px;
+    background-color: #f76060;
+} */
+
+
+
+.inside{
+    border: 1px solid rgba(213, 213, 213, 0.633);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 15px 15px;
+    width: 600px;
+}
+
+.inside:hover{
+    background-color: #f76060;
+}
+
+.online{
+    display: flex;
+    border: 1px solid rgba(213, 213, 213, 0.633);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 8px 15px;
+    padding-bottom: 0;
+    width: 600px;
+}
+
+.online:hover{
+    background-color: #f76060;
+}
+
+.innerkat{
+    display: flex;
+}
+.innerkat i{
+        padding: 10px;
+        padding-bottom: 15px;
+        margin-right: 10px;
+        margin-top: 15px;
+        /* margin-top: 10px; */
+        font-size: 55px;
+        border: 1px solid rgb(236, 236, 236);
+        border-radius: 5px;
+        height: 55px;
+        width: 55px;
+        text-align: center;
+        background-color: #ffdddd;
+}
+
+.urun{
+    margin: 80px 0px;
+    text-align: center;
+}
+
+.urun .innerUrun{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.urunler{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.kuru{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 15px;
+    height: fit-content;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.kuru:hover{
+    transform: scale(1.03);
+}
+
+.kuru img{
+    width: 250px;
+    height: 150px;
+}
+
+.kuru button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+}
+
+.kuru button:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: rgba(255, 39, 39, 0.811);
+
+}
+.urun .gozAt{
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.urun .gozAt:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: rgba(255, 39, 39, 0.811);
+}
+
+.yanindanTani{
+    background-color: #ffe8e8;
+    padding: 35px;
+    padding-bottom: 20px;
+}
+
+.both{
+    
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    gap: 75px;
+    font-size: large;
+}
+
+.both h3{
+    color: red;
+}
+
+.both p{
+    width: 450px;
+    line-height: 25px;
+}
+
+.both img{
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.bizdenHaber{
+    margin-top: 55px;
+    margin-bottom: 50px;
+    text-align:  center; 
+}
+.bizdenHaber .ziyaret img{
+    height: 200px;
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ziyaretler{
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    display: flex;
+}
+
+.ziyaret{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.ziyaret:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.ziyaret h3,
+p,
+a{
+    padding-left: 25px;
+}
+
+.ziyaret a{
+    text-decoration: none;
+    color: red;
+    transition-duration: 0.5s;
+}
+
+.ziyaret a:hover{
+    color: rgb(203, 0, 0);
+    font-size: large;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100PX;
+    background-color: #252525;
+    color: white;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+footer .fehmiEroglu ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    line-height: 20px;   
+}
+
+footer .fehmiEroglu a{
+    text-decoration: none;
+    color: white;
+}
+
+.fehmiEroglu li:hover{
+    color: red;
+}
+
+.urunlerFooter{
+    line-height: 30px;
+}
+
+.urunlerFooter ul{
+    list-style: none;
+}
+
+.adress ul{
+    gap: 100px;
+}
+
+.adress ul:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+.afterFooter{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.kurumsal{
+    background-image: none;
+    height: 400px;
+}
+
+.kurumsal .kurum{
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    background-color: #fff2f2;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+
+.kurumsal .nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.kurumsal .nav ul li a:hover{
+    color: red;
+}
+
+section .foto{
+    width: 350px;
+    height: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 150px;
+    margin-top: 0px;
+}
+
+section .foto h2{
+    padding-left: 20px;
+}
+
+section .foto img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secenekler{
+    margin: 60px 0;
+}
+
+.secenekler .ilk{
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+
+.secenekler .ilk a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.secenekler .ilk a p:hover{
+    color:rgb(203, 0, 0);
+}
+
+.secenekler .ilk img{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.secenekler .sec{
+    transition: 0.5s;
+}
+
+.secenekler .sec:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.kesilmis{
+    justify-content: center;
+    display: flex;
+    margin: 50px 0;
+}
+
+.kesilmis .sec p{
+    font-weight: bold;
+    line-height: 6px;
+    font-size: large;
+}
+
+.kesilmis .sec p:hover{
+    color: red;
+}
+
+.kesilmis .sec span{
+    font-size: small;
+    color: rgb(169, 169, 169);
+}
+
+.kesilmis a{
+    text-decoration:  none;
+    color: #252525;
+}
+
+
+.kesilmisDetay{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.kesUrunler{
+    background-image: none;
+    height: 200px;
+}
+
+.kesilmisDetay {
+    margin: 50px 0;
+}
+
+.kesilmisDetay img{
+    height: 350px;
+}
+
+.form {
+    width: 600px;
+}
+
+.form .firstButton{
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 32, 32);
+}
+
+.form .firstButton:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 60, 60);
+}
+
+.aciklama{
+    margin-top: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(184, 184, 184, 0.636);
+}
+.aciklama h3{
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.ambalaj span{
+    font-weight:normal;
+}
+
+.teklif form{
+    border-radius: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 30px 20px;
+}
+
+.teklif form label{
+    color: gray;
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.teklif form input{
+    border-radius: 10px;
+    width: 550px;
+    border: none;
+    border: 1px solid rgb(230, 230, 230);
+    line-height: 40px;
+}
+
+form button{
+    margin-top: 20px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 32, 32);
+}
+
+form button:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 60, 60);
+}
+
+
+.ilk a p{
+    line-height: 8px;
+}
+
+.kayisiCekirdek{
+    color: rgb(204, 204, 204);
+    font-size: smaller;
+}
+
+.kesilmisDetay img{
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.sertificalar .ilk{
+    justify-content: center;
+    display: flex;
+}
+
+.sertificalar .ilk .sec{
+    margin: 30px;
+}
+
+.sertificalar img{
+    height: 300px;
+    width: 250px;
+}
+.sertificalar figcaption{
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.iletişim{
+    justify-self: center;
+    display: flex;
+    gap: 150px;
+}
+.iletişim img{
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+}
+
+.iletişim a {
+    text-decoration: none;    
+}
+
+.iletişim .ilk a figcaption{
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.iletişim {
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.iletişim .ilk span{
+    font-weight: bold;
+    line-height: 40px;
+}
