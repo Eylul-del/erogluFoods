@@ -1,0 +1,20 @@
+
+.sertificalar .ilk{
+    justify-content: center;
+    display: flex;
+}
+
+.sertificalar .ilk .sec{
+    margin: 30px;
+}
+
+.sertificalar img{
+    height: 300px;
+    width: 250px;
+}
+.sertificalar figcaption{
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+}

@@ -1,0 +1,72 @@
+
+.haberler .ilk{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.haberler .ilk a{
+    padding: 0px;
+    width: 360px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+}
+
+.haberler .ilk a:hover{
+    transform: scale(1.03);
+}
+
+.haberler .ilk h3{
+    padding-left: 20px;
+}
+
+.haberler .ilk h3:hover{
+    color: red;
+}
+
+.haberler .ilk a p{
+    line-height: 25px;
+    padding: 0 15px;
+}
+
+.haberler .ilk img{
+    height: 250px;
+    width: 360px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.innerDerebey{
+    margin: 0px  0px 80px 150px;
+}
+
+.innerDerebey img{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    height: 330px;
+    width: 330px;
+}
+
+.innerOrman div{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: left;
+}
+
+.innerDerebey .haberlerInnerPhotos img{
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 300px;
+}
+
+.innerToplanti .haberlerInnerPhotos{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}

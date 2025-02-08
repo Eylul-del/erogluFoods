@@ -1,0 +1,31 @@
+
+.iletişim{
+    justify-self: center;
+    display: flex;
+    gap: 150px;
+}
+.iletişim img{
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+}
+
+.iletişim a {
+    text-decoration: none;    
+}
+
+.iletişim .ilk a figcaption{
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.iletişim {
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.iletişim .ilk span{
+    font-weight: bold;
+    line-height: 40px;
+}

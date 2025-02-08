@@ -1,0 +1,165 @@
+
+.secenekler{
+    margin: 60px 0;
+}
+
+.secenekler .ilk{
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+
+.secenekler .ilk a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.secenekler .ilk a p:hover{
+    color:rgb(203, 0, 0);
+}
+
+.secenekler .ilk img{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.secenekler .sec{
+    transition: 0.5s;
+}
+
+.secenekler .sec:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.kesilmis{
+    justify-content: center;
+    display: flex;
+    margin: 50px 0;
+}
+
+.kesilmis .sec p{
+    font-weight: bold;
+    line-height: 6px;
+    font-size: large;
+}
+
+.kesilmis .sec p:hover{
+    color: red;
+}
+
+.kesilmis .sec span{
+    font-size: small;
+    color: rgb(169, 169, 169);
+}
+
+.kesilmis a{
+    text-decoration:  none;
+    color: #252525;
+}
+
+
+.kesilmisDetay{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.kesUrunler{
+    background-image: none;
+    height: 200px;
+}
+
+.kesilmisDetay {
+    margin: 50px 0;
+}
+
+.kesilmisDetay img{
+    height: 350px;
+}
+
+.form {
+    width: 600px;
+}
+
+.form .firstButton{
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 32, 32);
+}
+
+.form .firstButton:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 60, 60);
+}
+
+.aciklama{
+    margin-top: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(184, 184, 184, 0.636);
+}
+.aciklama h3{
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.ambalaj span{
+    font-weight:normal;
+}
+
+.teklif form{
+    border-radius: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 30px 20px;
+}
+
+.teklif form label{
+    color: gray;
+    padding-left: 10px;
+    line-height: 40px;
+}
+
+.teklif form input{
+    border-radius: 10px;
+    width: 550px;
+    border: none;
+    border: 1px solid rgb(230, 230, 230);
+    line-height: 40px;
+}
+
+form button{
+    margin-top: 20px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 32, 32);
+}
+
+form button:hover{
+    transform: scale(1.03);
+    background-color: rgb(255, 60, 60);
+}
+
+
+.ilk a p{
+    line-height: 8px;
+}
+
+.kayisiCekirdek{
+    color: rgb(204, 204, 204);
+    font-size: smaller;
+}
+
+.kesilmisDetay img{
+    margin-top: 60px;
+    border-radius: 10px;
+}
