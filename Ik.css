@@ -1,0 +1,49 @@
+.insanKaynaklari{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin: 50px 0px;
+}
+
+form label span{
+    color: rgb(200, 200, 200);
+    font-size: small;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form input{
+    margin-bottom: 30px;
+    border: none;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+form .text{
+    height: 50px;
+    width: 1100px;
+}
+
+form .file{
+    width: 800px;
+    padding: 20px 10px;
+}
+
+
+
+form button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+form button:hover{
+    background-color: rgb(189, 189, 189);
+    transform: scale(1.03);
+    cursor: pointer;
+}
